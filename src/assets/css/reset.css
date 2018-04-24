@@ -1,0 +1,118 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, address, del, em, strong, 
+sub, sup, dl, dt, dd, ol, ul, li, form, label, caption { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+outline: 0; 
+font-weight: inherit; 
+font-size: 100%; 
+font-family: inherit; 
+vertical-align: baseline; 
+width: 100%; 
+}
+span{
+	width:auto;
+}
+img{
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0; 
+	font-weight: inherit; 
+	font-family: inherit; 
+	vertical-align: baseline; 
+}
+
+html { 
+font-family: “Helvetica Neue”, Helvetica, STHeiTi, Arial, sans-serif, “Microsoft YaHei”, “微软雅黑”; 
+-ms-text-size-adjust: 100%; 
+-webkit-text-size-adjust: 100%; 
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+height: 100%; 
+}
+
+body { 
+margin: 0; 
+font-size: 0.14rem; 
+line-height: 0.21rem; 
+color: #333333; 
+background-color: white; 
+height: 100%; 
+overflow-x: hidden; 
+-webkit-overflow-scrolling: touch; 
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { 
+display: block; 
+}
+
+img { 
+border: 0; 
+max-width: 100% !important; 
+vertical-align: middle; 
+}
+
+address, caption, cite, code, i, em, strong{ 
+font-weight: normal; 
+font-style: normal; 
+}
+
+ol, ul { 
+list-style: none; 
+}
+
+a { 
+
+text-decoration: none; 
+-webkit-tap-highlight-color: transparent; 
+color: #0088cc; 
+background:#fff;
+}
+
+a:active { 
+outline: 0; 
+} 
+a:active { 
+color: #006699; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+font-weight: normal; 
+font-size: 100%; 
+}
+
+button, input, select, textarea { 
+margin: 0; 
+font: inherit; 
+color: inherit; 
+outline: none; 
+-webkit-appearance: none; 
+border-radius: 0; 
+font-family: 'Avenir', Helvetica, Arial;
+}
+
+*{ 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+padding:0;
+margin:0;
+}
+:before, 
+:after { 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+::-webkit-scrollbar/*影藏滚动条*/
+{
+    width: 0;
+    height: 0;
+}
+
+/* bg-img(@url){
+  	background-image: url(@url + "@2x.png");
+  	@media (-webkit-min-device-pixel-ratio: 3),(min-device-pixel-ratio: 3){
+    	background-image: url(@url + "@3x.png")
+	}
+} */

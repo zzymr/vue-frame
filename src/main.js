@@ -12,8 +12,6 @@ import 'mint-ui/lib/style.css';
 Vue.use(VueCookies);
 Vue.prototype.$http = axios;
 Vue.use(Mint);
-import { Toast } from 'mint-ui'
-
 
 Vue.config.productionTip = false;
 //rem换算
@@ -21,10 +19,6 @@ import './assets/js/flexible.js'
 // 通用样式 重置样式
 import './assets/css/reset.css'
 
-Toast({
-  message: "mint-ui提示信息",
-  duration: 1000
-});
 
 /* eslint-disable no-new */
 new Vue({
